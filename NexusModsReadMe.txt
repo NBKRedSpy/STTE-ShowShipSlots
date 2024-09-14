@@ -1,7 +1,7 @@
 [b][size=5]Shortest Trip To Earth - Show Ship Slots[/size][/b] 
  
  
-Toggles the visibility of the slots to make it easier to determine which mods to upgrade.
+Toggles the visibility of the slots to make it easier to determine which slots to upgrade.
  
 The mod does not remove the modules, just hides them temporarily.
  

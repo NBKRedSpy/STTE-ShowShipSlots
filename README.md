@@ -2,7 +2,7 @@
 
 ![thumbnail icon](media/thumbnail.png)
 
-Toggles the visibility of the slots to make it easier to determine which mods to upgrade. 
+Toggles the visibility of the slots to make it easier to determine which slots to upgrade. 
 
 The mod does not remove the modules, just hides them temporarily.
 
