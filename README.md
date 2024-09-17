@@ -4,16 +4,17 @@
 
 Toggles the visibility of the slots to make it easier to determine which slots to upgrade. 
 
-The mod does not remove the modules, just hides them temporarily.
-
 Pressing the backlash key will toggle the slot visibility.
 The hotkey can be changed in the configuration file.
-
-The slots can be upgraded when the modules are hidden.
 
 # Steam Workshop
 For Steam Users, subscribing to this mod does not install the mod.
 Follow [Installation section](#installation) instructions below to install.
+
+# Notes
+When changing a module or changing a preset, the affected modules will be visible.  This is normal.  Simply toggle the visibility again to hide or show all.
+
+When the modules are hidden, the slots can still be upgraded.  Since the modules are still present but invisible, the "select slot" will have to be used as per normal operation.
 
 # Compatibility
 * Some mods instruct the user to overwrite the game's original files.  This mod may not be compatible with those mods.
@@ -76,6 +77,9 @@ winhttp.dll
 ```
 
 # Change Log 
+
+## 1.0.1
+* Fixed modules being destroyed when selected.
 
 ## 1.0.0
 * Release
