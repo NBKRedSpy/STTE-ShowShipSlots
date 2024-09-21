@@ -44,7 +44,9 @@ namespace ShowShipSlots
                 foreach (ModuleSlotRoot moduleSlotRoot in __instance.ModuleSlotRoots
                     .Where(x => x?.Module != null))
                 {
-                    moduleSlotRoot.Module.transform.Find("unpackedgroup").gameObject.SetActive(IsVisible);
+                    //Nukes will not have a group to disable.
+                    Transform group = moduleSlotRoot.Module.transform.Find("unpackedgroup");
+                    group?.gameObject.SetActive(IsVisible);
                 }
             }
         }

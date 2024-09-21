@@ -83,6 +83,9 @@ winhttp.dll
 
 # Change Log 
 
+## 1.0.2
+* Fixed issue where nukes would prevent slots from hiding.
+
 ## 1.0.1
 * Fixed modules being destroyed when selected.
 
