@@ -40,14 +40,19 @@ This section covers how to install the BepInEx mod loader and the mod itself.
 If BepInEx has already been installed, skip to the [Mod Install](#mod-install) section.
 
 * Download BepInEx from https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip
-* Extract the contents of the BepInEx zip file into the game's directory:
+* Extract of the BepInEx zip file into the game's directory:
 ```<Steam Directory>\steamapps\common\Shortest Trip to Earth```
+* Move all of the files in the new ```BepInEx_win_x64_5.4.23.2``` folder to the game's root directory.
+* If installed correctly, the following folders and files will exist in the game's directory:
+```
+<Game Directory>
+│   doorstop_config.ini
+│   ST Earth.exe
+├───BepInEx
+├───Data
+```
 * Run the game.  Once the main menu is shown, exit the game.  
-* If the install was successful, there will now be a ```<Game Dir>/BepInEx/plugins``` directory.
-
-### BepInEx Install Issue.
-If there is not a BepInEx/plugins directory after running the game, make sure BepInEx was extracted to the game's directory and not the .zip file's name.
-For example, the game directory should not have a BepInEx_win_x64_5.4.23.2 folder.  In this case, simply move the BepInEx sub directory into the game's folder and run the game again.
+* If the install was successful, there will now be a ```<Game Directory>/BepInEx/plugins``` directory.
 
 ## Mod Install
 * Download the ShowShipSlots.zip.  

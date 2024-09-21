@@ -62,16 +62,22 @@ This section covers how to install the BepInEx mod loader and the mod itself.
 If BepInEx has already been installed, skip to the Mod Install section.
 [list]
 [*]Download BepInEx from https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.2/BepInEx_win_x64_5.4.23.2.zip
-[*]Extract the contents of the BepInEx zip file into the game's directory:
+[*]Extract of the BepInEx zip file into the game's directory:
 [i]<Steam Directory>\steamapps\common\Shortest Trip to Earth[/i]
-[*]Run the game.  Once the main menu is shown, exit the game.
-[*]If the install was successful, there will now be a [i]<Game Dir>/BepInEx/plugins[/i] directory.
+[*]Move all of the files in the new [i]BepInEx_win_x64_5.4.23.2[/i] folder to the game's root directory.
+[*]If installed correctly, the following folders and files will exist in the game's directory:
 [/list]
-
-[h3]BepInEx Install Issue.[/h3]
-
-If there is not a BepInEx/plugins directory after running the game, make sure BepInEx was extracted to the game's directory and not the .zip file's name.
-For example, the game directory should not have a BepInEx_win_x64_5.4.23.2 folder.  In this case, simply move the BepInEx sub directory into the game's folder and run the game again.
+[code]
+<Game Directory>
+│   doorstop_config.ini
+│   ST Earth.exe
+├───BepInEx
+├───Data
+[/code]
+[list]
+[*]Run the game.  Once the main menu is shown, exit the game.
+[*]If the install was successful, there will now be a [i]<Game Directory>/BepInEx/plugins[/i] directory.
+[/list]
 
 [h2]Mod Install[/h2]
 [list]
